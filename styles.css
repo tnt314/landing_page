@@ -194,3 +194,15 @@ blockquote p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 100px;
+}
+
+footer p {
+    color: #e5e7eb;
+}
