@@ -157,3 +157,40 @@ blockquote p {
     font-weight: bold;
     font-style: normal;
 }
+
+.section_four {
+    display: flex;
+    align-items: center;
+    height: 350px;
+}
+.section_four div {
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #3883f6;
+    height: 40%;
+    width: 100%;
+}
+
+.section_four div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 175px;
+    border: 2px solid red;
+}
+
+.section_four p {
+    margin: 0;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.section_four button {
+    border: 2px solid #f9faf8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
