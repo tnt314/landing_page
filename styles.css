@@ -7,31 +7,28 @@ body {
     background-color: #1f2937;
     margin: auto;
     height: 500px;
+    padding: 0 100px;
 }
 
 nav {
     display: flex;
     align-items: baseline;
-    border: 2px solid red;
 }
 
 nav ul {
     display: flex;
     margin-left: auto;
     gap: 5px;
-    border: 2px solid red;
     list-style: none;
 }
 
 nav li {
     margin: 0 10px;
-    border: 2px solid red;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    border: 2px solid red;
 }
 
 a {
@@ -49,7 +46,6 @@ h1 {
 
 .intro {
     display: flex;
-    border: 2px solid red;
     gap: 50px;
     align-items: center;
     padding: 100px 0;
@@ -59,7 +55,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: left;
-    border: 2px solid red;
 }
 
 .intro p {
@@ -88,9 +83,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 80px;
     height: 350px;
+    padding: 10px 100px 80px 100px;
 }
 
 h2 {
@@ -132,7 +126,7 @@ h2 {
     height: 350px;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    padding: 20px 100px;
 }
 
 blockquote {
@@ -162,6 +156,7 @@ blockquote p {
     display: flex;
     align-items: center;
     height: 350px;
+    padding: 0 100px;
 }
 .section_four div {
     display: flex;
@@ -177,16 +172,20 @@ blockquote p {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    width: 50%;
+    width: 550px;
     margin-left: 100px;
     margin-right: 175px;
-    border: 2px solid red;
 }
 
 .section_four p {
     margin: 0;
-    font-size: 18px;
+    font-size: 24px;
     color: #f9faf8;
+}
+
+.section_four .sign {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .section_four button {
